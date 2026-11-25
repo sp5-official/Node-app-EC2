@@ -9,6 +9,6 @@ const PORT = 3000;
 app.use(express.static(__dirname));
 
 // Start local server
-app.listen(PORT, 'localhost', () => {
-    console.log(`Spotify Clone running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Spotify Clone running at ${PORT}`);
 });
