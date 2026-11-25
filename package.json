@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This is a **Spotify Frontend Clone** built using only **HTML** and **CSS**.\r The project replicates the user interface of Spotify's web player, focusing on the design and layout to create a visually appealing and responsive experience.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
